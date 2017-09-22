@@ -119,7 +119,7 @@ void getGPS()
   float lo = sim808.GPSdata.lon;
   float ws = sim808.GPSdata.speed_kph;
 
-  dtostrf(la, 4, 6, lat); //put float value of la into char array of lat. 6 = number of digits before decimal sign. 2 = number of digits after the decimal sign.
+  dtostrf(la, 4, 6, lat); //put float value of la into char array of lat. 4 = number of digits before decimal sign. 6 = number of digits after the decimal sign.
   dtostrf(lo, 4, 6, lon); //put float value of lo into char array of lon
   dtostrf(ws, 6, 2, wspeed);  //put float value of ws into char array of wspeed
 
