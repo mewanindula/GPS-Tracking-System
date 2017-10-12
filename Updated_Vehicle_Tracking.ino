@@ -134,7 +134,5 @@ void sendSMS()
   Serial.println(phone);
   
   sim808.sendSMS(phone,MESSAGE);
-  
-  phone[16] = "";
 }
 
