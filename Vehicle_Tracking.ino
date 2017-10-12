@@ -107,8 +107,6 @@ void loop()
        Serial.println(phone);
   
        sim808.sendSMS(phone,MESSAGE);
-
-       phone[16] = "";
   
       //************* Turn off the GPS power ************
       sim808.detachGPS();
